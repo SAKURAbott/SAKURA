@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-cd $HOME/Tshake
+cd $HOME/SAKURA
 rm -rf $HOME/.telegram-cli
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Tshake
-chmod +x ts
+chmod +x SAKURA
+chmod +x sa
 ./ts
 }
 if [ "$1" = "ins" ]; then

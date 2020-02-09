@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/Tshake
+cd $HOME/SAKURA
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x Tshake
-chmod +x ts
+chmod +x SAKURA
+chmod +x sa
 ./ts
 }
 get() {
-rm -fr Tshake.lua
+rm -fr SAKURA.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/tshakeabas/Tshake/master/Tshake.lua"
+wget "https://raw.githubusercontent.com/SAKURAbott/SAKURA/master/Tshake.lua"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd Tshake
+cd SAKURA
 rm -rf luarocks*
 lua start.lua
 
